@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Article list</title>
+    </head>
+    <body>
+        <form>
+  <input type="hidden" name="id" id="id" /><br />
+  Subject:<br />
+  <input type="text" name="Subject" id="name" /><br />
+  <input type="submit" value="search">
+</form>
+        <h1>Articles</h1>
+        <table style="width:100%;">
+    <tr>
+        <th>Id</th>
+        <th>Abstract</th>
+        <th>Title</th> 
+        <th>Web_URL</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>a1</td>
+        <td>t1</td>
+        <td>wu1</td>
+        <td>
+            <button>POST</button>
+        </td>
+    </tr>
+</table>
+<div id="table">
+    
+</div>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script 
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    
+    <script type="text/javascript">
+    $(document).ready(function() {
+        console.log('Hello from JQuery')
+    })
+</script>
+        <form onSubmit="showArticles(event)">
+</form>
+    </body>
+</html>

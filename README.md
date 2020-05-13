@@ -1,16 +1,17 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+#Proiect Cloud
 
+Paragraf de introducere
 
-Hi there! Welcome to AWS Cloud9!
+## Descriere Problema
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
+## Prezentare API-uri utilizate
 
-Happy coding!
-# CCproject
-# CCproject
+## Descriere arhitectura
+
+### Exemple de request/response
+
+'''json
+{
+    "exemplu": "json"
+}
+'''
